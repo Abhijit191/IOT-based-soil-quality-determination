@@ -29,7 +29,6 @@ void loop(){
 //  if (Red <=15 && Green <=15 && Blue <=15)         
 //      Serial.println("White");                    
       
-// phosphorous recognition of color
    if (Blue<Green && Blue<Red && Blue<=26 && Blue>=13)    
       Serial.println("phosphorous is HIGH");
 
